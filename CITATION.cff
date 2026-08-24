@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, cite both convrot-mlx and the ConvRot paper."
+title: "convrot-mlx"
+type: software
+version: 0.1.0
+authors:
+  - family-names: "Lumenbeing contributors"
+repository-code: "https://github.com/Lumenbeing/convrot-mlx"
+license: Apache-2.0
+keywords:
+  - MLX
+  - Apple Silicon
+  - ConvRot
+  - W4A4
+  - quantization
+references:
+  - type: article
+    title: "ConvRot: Rotation-Based Plug-and-Play 4-bit Quantization for Diffusion Transformers"
+    authors:
+      - family-names: Huang
+        given-names: Feice
+      - family-names: Han
+        given-names: Zuliang
+      - family-names: Zhou
+        given-names: Xing
+      - family-names: Chen
+        given-names: Yihuang
+      - family-names: Zhu
+        given-names: Lifei
+      - family-names: Wang
+        given-names: Haoqian
+    year: 2025
+    identifiers:
+      - type: url
+        value: "https://arxiv.org/abs/2512.03673"

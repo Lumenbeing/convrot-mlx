@@ -1,0 +1,49 @@
+name: Performance result
+description: Share a reproducible ConvRot MLX benchmark or optimization result.
+title: "[performance] "
+labels: ["performance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report the complete projection path, including rotation, activation quantization, scaling, and bias.
+  - type: input
+    id: hardware
+    attributes:
+      label: Apple hardware
+      placeholder: M4 Pro, 48 GB unified memory
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: Software
+      placeholder: macOS 26.5, MLX 0.32.0, Python 3.13
+    validations:
+      required: true
+  - type: input
+    id: shape
+    attributes:
+      label: Shape and dtype
+      placeholder: M=4096, K=3072, N=3072, BF16 input, group 256
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command and warm-up
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Timing, memory, and numerical result
+      description: Include sample count, median complete-path latency, peak memory, and oracle comparison.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: State whether the run was cold, warm, compiled, or affected by swap.

@@ -1,0 +1,7 @@
+mlx==0.32.0
+huggingface-hub==1.27.0
+numpy==2.5.2
+Pillow==12.3.0
+regex==2026.7.19
+sentencepiece==0.2.2
+tqdm==4.70.0

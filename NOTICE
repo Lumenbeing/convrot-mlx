@@ -1,0 +1,23 @@
+convrot-mlx
+Copyright 2026 Lumenbeing contributors
+
+The ConvRot quantization contract in src/convrot_mlx/core.py is an MLX/Metal
+port of the Apache-2.0 plain ConvRot W4A4 reference in Comfy Kitchen:
+
+  ComfyKitchen
+  Copyright (c) 2025 Comfy Org. All rights reserved.
+  https://github.com/Comfy-Org/comfy-kitchen
+
+The FLUX.1 Dev adapter in examples/flux1_dev is based in part on Apple's
+MIT-licensed MLX examples:
+
+  MLX Examples
+  Copyright (c) 2023 Apple Inc.
+  https://github.com/ml-explore/mlx-examples
+
+The algorithm is described by Huang et al. in "ConvRot: Rotation-Based
+Plug-and-Play 4-bit Quantization for Diffusion Transformers". This project is
+an independent, unofficial Apple Silicon implementation and is not endorsed by
+the paper authors, Comfy Org, Apple, or Black Forest Labs.
+
+Third-party license texts are retained in third_party/.
